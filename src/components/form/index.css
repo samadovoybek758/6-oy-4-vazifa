@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.form{
+    max-width: 800px;
+    width: 100%;
+    background-color: rgb(194, 235, 235);
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+}
+.form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(90, 79, 79);
+}
+.form textarea{
+    padding: 5px;
+    border-radius: 5px;
+}
+.form button{
+    width: 200px;
+    margin: 0px auto;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(190, 109, 109);
+    color: white;
+    cursor: pointer;
+}
+.cards{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
